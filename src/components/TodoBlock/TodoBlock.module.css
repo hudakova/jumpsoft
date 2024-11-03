@@ -1,0 +1,12 @@
+.todo {
+  display: grid;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 4px;
+  margin-bottom: 0.2rem;
+}
+.todo_items {
+  display: flex;
+  justify-content: space-between;
+}

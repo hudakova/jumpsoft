@@ -1,3 +1,43 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.layout {
+  margin: 2rem 4rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todos-container {
+  width: 100%;
+  padding: 1rem;
+}
+
+.modal_inputs {
+  margin-bottom: 2rem;
+}
+.modal_buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
 .App {
   text-align: center;
 }
